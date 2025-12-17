@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "postman-docker-cicd-demo"
+        IMAGE_NAME = "postman-docker-cicd-demo-dev"
     }
 
     stages {
